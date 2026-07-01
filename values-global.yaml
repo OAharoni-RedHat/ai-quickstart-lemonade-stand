@@ -1,5 +1,5 @@
 global:
-  pattern: lemonade-stand
+  pattern: ai-quickstart-lemonade-stand
   singleArgoCD: true
   secretLoader:
     disabled: false
