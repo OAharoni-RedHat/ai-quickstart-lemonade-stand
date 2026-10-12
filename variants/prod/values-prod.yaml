@@ -72,3 +72,6 @@ clusterGroup:
       namespace: external-secrets
       chart: openshift-external-secrets
       chartVersion: 0.0.*
+
+  sharedValueFiles:
+    - '/overrides/values-{{ $.Values.global.clusterPlatform }}.yaml'
